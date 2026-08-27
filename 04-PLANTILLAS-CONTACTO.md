@@ -175,8 +175,8 @@ entender dónde duele de verdad.
 > "Gracias por el tiempo. Le explico en dos frases por qué le busqué y luego
 > me interesa más escucharlo a usted.
 >
-> Estudio comercio exterior en CAAAREM e ingeniería en IA en la Ibero. Con la
-> me puse a ver la cadena de la factura del proveedor al COVE y al pedimento, y
+> Estudio comercio exterior en CAAAREM e ingeniería en IA en la Ibero. Me puse
+> a ver la cadena que va de la factura del proveedor al COVE y al pedimento, y
 > eso es un problema de datos, no de aduanas. Yo sé resolver problemas de datos.
 > Lo que quiero saber es si en la práctica les está pegando o no."
 

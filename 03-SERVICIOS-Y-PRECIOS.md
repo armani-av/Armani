@@ -145,20 +145,28 @@ venta es el recurso escaso, no el tiempo de entrega.
 | **White-label** | 1 agencia × 60 importadores | 2–4 meses. **La ruta de un solo cliente.** |
 | **Mixta** | 4 igualas (80 000) + 2 proyectos (90 000) | **La más probable en la práctica** |
 
-### Capacidad: ¿le da el tiempo?
+### Capacidad: ¿le da el tiempo? (con el horario real)
 
-Con 55 h/semana de clase, quedan ~113 h despiertas. Suponiendo 25 h/semana disponibles
-para esto de forma sostenible (hay que validar con el horario real):
+El presupuesto verificado es de **~12 h/semana** = **48 h/mes** (ver `05-PLAN-EJECUCION.md`),
+y de esas solo **6 h caen en horario hábil**, que es cuando se puede vender.
 
-- 100 h/mes disponibles.
-- Una iguala consume 8–12 h/mes → **8–12 igualas caben en el tiempo**, justo la meta.
+- Una iguala consume 8–12 h/mes → **caben 4, máximo 5**, contando que hay que seguir vendiendo.
+- 4–5 igualas ≈ **60 000 – 150 000 MXN/mes**. Eso es entre 3 500 y 8 800 USD.
 
-**Pero:** eso es al 100 % de utilización, sin tiempo de venta, sin margen, sin exámenes.
-**La restricción real no es la entrega, es la venta.** Por eso el canal (agencias) importa
-más que el volumen de prospectos: menos conversaciones, tickets más grandes.
+**Conclusión incómoda pero importante: con 12 h/semana, la meta de 10 000 USD/mes no se
+alcanza sumando igualas.** El techo de ese camino está alrededor de 5 clientes.
 
-**Cuando esto se sature** — alrededor de 5–6 igualas — hay dos salidas: automatizar más
-(aquí sí entra la IA, sobre trabajo ya cobrado) o subir precios. En ese orden.
+Las tres salidas reales, en orden de preferencia:
+
+1. **Subir precio.** Si a 30 000 MXN nadie objeta, la meta son 6 igualas en vez de 11.
+2. **White-label (paquete E).** Un solo contrato con una agencia grande vale lo que
+   siete igualas y consume una fracción del tiempo de venta.
+3. **Automatizar.** Aquí sí entra la IA, sobre trabajo ya cobrado, para bajar las 8–12 h
+   por cliente a 3–4.
+
+**La restricción real no es la entrega: son las 6 horas semanales de horario hábil.** Por
+eso el canal de agencias importa más que el volumen de prospectos: menos conversaciones,
+tickets más grandes.
 
 ---
 
