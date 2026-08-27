@@ -24,16 +24,16 @@ Profesor [Apellido]:
 
 Le escribo por algo que vi en clase y me quedé pensando.
 
-Estoy estudiando también Ingeniería en IA en la Ibero, y con lo de la MVE
-obligatoria desde agosto me llamó la atención que el SAT cruza la
-manifestación contra los CFDI de la empresa. Eso me suena a un problema de
-reconciliación de datos más que a un problema aduanero, y es algo que sí sé
-resolver técnicamente.
+Estoy estudiando también Ingeniería en IA en la Ibero, y me llamó la atención
+la cadena que va de la factura del proveedor extranjero al COVE y de ahí a lo
+declarado en el pedimento. Eso me suena a un problema de reconciliación de
+datos más que a un problema aduanero, y es algo que sí sé resolver
+técnicamente.
 
-Mi duda es si el problema que creo que existe, existe de verdad: ¿las
-empresas y las agencias están teniendo dificultad para que esos tres juegos
-de datos cuadren, o en la práctica se resuelve fácil y estoy viendo un
-problema donde no hay?
+Mi duda es si el problema que creo que existe, existe de verdad: ¿es común
+que haya diferencias entre lo que dice la factura del proveedor y lo que
+termina declarado, sobre todo con los incrementables según el incoterm? ¿O en
+la práctica se resuelve fácil y estoy viendo un problema donde no hay?
 
 Le agradecería mucho quince minutos cuando tenga. No le quiero vender nada;
 quiero saber si vale la pena que dedique el semestre a esto.
@@ -58,11 +58,11 @@ Gracias,
 Qué tal [Nombre], oye una pregunta rápida
 
 Con lo de la MVE obligatoria desde el 1 de agosto, ¿en la agencia de tu
-[papá/familia] les está pegando? Lo pregunto porque estoy armando algo
-en la Ibero para cruzar pedimentos contra CFDI automático y quiero saber
-si el problema es real o me lo estoy inventando
+[papá/familia] les está pegando? Lo pregunto porque estoy armando algo en la
+Ibero que compara la factura del proveedor contra el COVE y contra el
+pedimento, y quiero saber si el problema es real o me lo estoy inventando
 
-¿Están teniendo broncas de que no cuadren los datos?
+¿Se les atora el ida y vuelta del COVE y el MNVA con los importadores?
 ```
 
 **Sigue solo si contesta que sí:**
@@ -123,16 +123,16 @@ Una pregunta directa: ¿ya están transmitiendo la Manifestación de Valor
 Electrónica por VUCEM, o siguen bajo las facilidades transitorias?
 
 Lo pregunto porque esas facilidades vencen el 30 de septiembre, y el punto
-donde más he visto tropiezos no es el llenado del formato: es que los
-incrementables declarados en la MVE no coinciden con los CFDI de fletes y
-seguros. El SAT cruza esos datos algorítmicamente y ahí es donde salta la
-inconsistencia.
+donde más he visto tropiezos no es el llenado del formato: es el manejo de
+los incrementables según el incoterm. Si la operación es CIF o CFR, el flete
+ya viene dentro del precio pagado y volver a sumarlo sobrevalúa; si es FOB y
+no se declara, subvalúa. Y la subvaluación es la que trae multa fuerte.
 
-Yo hago exactamente ese cruce. Reviso sus pedimentos contra sus CFDI y les
-entrego la lista de operaciones donde los datos no cuadran, antes de que la
-detecte la autoridad.
+Yo reviso exactamente eso: coteje la factura de su proveedor contra el COVE y
+contra lo declarado en el pedimento, y le entrego la lista de operaciones
+donde hay diferencia.
 
-Si quiere, le reviso 20 pedimentos y le muestro qué encuentro. Si no
+Si quiere, le reviso 20 operaciones y le muestro qué encuentro. Si no
 encuentro nada, no hay nada que pagar.
 
 [Nombre completo]
@@ -152,9 +152,9 @@ Máximo 300 caracteres:
 
 ```
 [Nombre], soy estudiante de CAAAREM e Ingeniería en IA en la Ibero. Estoy
-trabajando en reconciliación automática de MVE contra CFDI y me interesa
-mucho la perspectiva de alguien que lo vive en operación. Me gustaría
-seguir su trabajo.
+trabajando en validación automática de valor entre factura comercial, COVE y
+pedimento, y me interesa mucho la perspectiva de alguien que lo vive en
+operación. Me gustaría seguir su trabajo.
 ```
 
 **Al aceptar, esperar 2 días. Luego:**
@@ -176,8 +176,8 @@ entender dónde duele de verdad.
 > me interesa más escucharlo a usted.
 >
 > Estudio comercio exterior en CAAAREM e ingeniería en IA en la Ibero. Con la
-> MVE me di cuenta de que el SAT está cruzando la manifestación contra los CFDI,
-> y eso es un problema de datos, no de aduanas. Yo sé resolver problemas de datos.
+> me puse a ver la cadena de la factura del proveedor al COVE y al pedimento, y
+> eso es un problema de datos, no de aduanas. Yo sé resolver problemas de datos.
 > Lo que quiero saber es si en la práctica les está pegando o no."
 
 **Luego callarse. Las cuatro preguntas, en orden:**
@@ -220,10 +220,10 @@ entender dónde duele de verdad.
 Aprovecho para comentarle algo que noté haciendo esto: [observación
 específica y real de los datos].
 
-Eso me hace pensar que si cruzáramos los pedimentos de esos importadores
-contra sus CFDI, probablemente saldrían inconsistencias de valor. Es el
-mismo tipo de revisión, un nivel más profundo, y es la que el SAT sí está
-cruzando de forma automática.
+Eso me hace pensar que si cotejáramos las facturas de los proveedores de esos
+importadores contra sus COVE y sus pedimentos, probablemente saldrían
+diferencias de valor, sobre todo en el manejo de incrementables. Es el mismo
+tipo de revisión, un nivel más profundo.
 
 ¿Le interesa que le muestre cómo se ve eso con uno de sus clientes?
 
@@ -240,8 +240,8 @@ cruzando de forma automática.
 [Nombre], le escribo nada más por la fecha.
 
 Las facilidades transitorias de la MVE vencen el 30 de septiembre. Después de
-eso, cada pedimento que se despache con inconsistencias entre la manifestación
-y los CFDI queda expuesto a revisión.
+eso, cada pedimento que se despache con diferencias entre lo que dice la
+factura del proveedor y lo declarado queda expuesto a revisión.
 
 Si quiere que le revise sus operaciones antes de esa fecha, todavía alcanza,
 pero necesito empezar a más tardar el [fecha = 30 sep menos 10 días].
@@ -263,6 +263,8 @@ Si ya lo tienen resuelto, ignore este correo con toda confianza.
 | "Le garantizo que no lo multan" | Falso y legalmente expuesto. |
 | "Soy experto en comercio exterior" | Un agente con 20 años lo desmonta en una pregunta. |
 | "Anexo 31" | Se llama **Anexo 30** desde diciembre de 2021. Delata al que leyó pero no vive el tema. |
+| Confundir la factura del agente con la de la mercancía | La factura que ampara la mercancía es del **proveedor extranjero** y no es CFDI. La del agente son sus honorarios. Es el error que un experto detecta en la primera frase — ver `08-LA-OPERACION.md`. |
+| "Cruzo pedimentos contra CFDI" | Mezcla las dos facturas. Decir: "coteje la factura del proveedor contra el COVE y contra el pedimento". |
 | "El SAT dio de baja a 19 mil importadores por incumplimiento" | 17 855 de esas bajas fueron por inactividad. Usar el **+22.4 % de suspensiones**. |
 | "Uso inteligencia artificial" | En este gremio suena a humo. Decir "cruzo las bases de datos automáticamente". |
 | Precio en el primer contacto | Ancla bajo y mata la conversación de valor. |

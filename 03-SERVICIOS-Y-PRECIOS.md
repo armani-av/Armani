@@ -15,9 +15,11 @@ Todos los precios **antes de IVA**.
 
 ### A — Diagnóstico MVE Express `← el producto de entrada`
 
-**Qué es:** Se revisan hasta **20 pedimentos** de importación recientes. Se cruzan contra
-los CFDI correspondientes y contra la MVE transmitida. Se entrega un informe con cada
-inconsistencia detectada, clasificada por severidad, y qué habría que corregir.
+**Qué es:** Se revisan hasta **20 operaciones** de importación recientes. Para cada una se
+coteja la **factura comercial del proveedor contra el COVE y contra lo declarado en el
+pedimento**, y se verifica que los **incrementables correspondan al incoterm pactado**.
+Se entrega un informe con cada diferencia detectada, clasificada por severidad, y qué
+habría que corregir. Ver `08-LA-OPERACION.md` para el detalle técnico.
 
 **Entregable:** Informe PDF (8–12 páginas) + hoja de cálculo con el detalle por pedimento
 + una sesión de 45 min para explicarlo.

@@ -46,14 +46,24 @@ compra en septiembre.
 
 ### El mecanismo de detección
 
-El SAT cruza algorítmicamente la MVE contra los **CFDI** emitidos y recibidos por la
-empresa. Si el valor, fletes, seguros o incrementables declarados en la MVE no coinciden
-con la facturación electrónica, se detonan inconsistencias.
+El SAT cruza algorítmicamente lo declarado contra la contabilidad del importador, incluidos
+los **CFDI** de fletes y seguros. Si el valor o los incrementables declarados no coinciden,
+se detonan inconsistencias.
+
+> ⚠️ **Precisión necesaria.** Ese cruce aplica a los **incrementables y a la contabilidad
+> mexicana**, nunca a la factura de la mercancía: esa la emite un **proveedor extranjero**
+> y no es un CFDI. Confundirlas es el error que un agente aduanal detecta en la primera
+> frase. Ver `08-LA-OPERACION.md`.
 
 **Esto es lo importante comercialmente:** el problema no es *llenar un formato*. Es
-**reconciliar tres bases de datos que en la mayoría de las empresas nunca se hablaron entre
-sí** — contabilidad (CFDI), comercio exterior (pedimento/COVE/DODA) y los contratos con
-proveedores. Eso es trabajo de datos, no de abogados. Y es exactamente lo que Armani sabe hacer.
+**reconciliar documentos que en la mayoría de las empresas nunca se cotejaron entre sí** —
+la factura del proveedor extranjero, el COVE, la MVE, el pedimento y, del lado mexicano,
+los CFDI de los servicios. Eso es trabajo de datos, no de abogados, y es exactamente lo
+que Armani sabe hacer.
+
+Añade a eso un handoff de cinco pasos entre dos empresas por cada operación (el agente
+hace el COVE, el importador hace la MVE con su e.firma, y los folios regresan al
+pedimento). Nadie vigila esa cadena. Ver `08-LA-OPERACION.md`.
 
 ### Consecuencias del incumplimiento
 

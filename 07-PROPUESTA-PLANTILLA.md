@@ -19,11 +19,12 @@ Vigencia:  10 días naturales
 La Manifestación de Valor Electrónica es obligatoria desde el 1 de agosto de
 2026. Las facilidades transitorias vencen el 30 de septiembre de 2026.
 
-El Servicio de Administración Tributaria valida la información de la MVE
-cruzándola contra los CFDI emitidos y recibidos por la empresa. Cuando el
-valor en aduana, los fletes, los seguros o los demás incrementables
-declarados no coinciden con lo registrado en la facturación electrónica, se
-genera una inconsistencia detectable de forma automatizada.
+El valor declarado en una operación de importación recorre una cadena:
+la factura comercial del proveedor extranjero se transmite como COVE, el
+importador elabora la MVE referenciando ese COVE, y ambos folios se declaran
+en el pedimento. Cuando los datos no coinciden entre esos documentos —o
+cuando los incrementables declarados no corresponden al INCOTERM pactado— se
+genera una diferencia de valor detectable de forma automatizada.
 
 En conversación del [fecha], [Nombre] mencionó [dolor específico, con las
 palabras del cliente].
@@ -34,11 +35,14 @@ palabras del cliente].
 Se revisarán [N] pedimentos de importación del periodo [rango de fechas],
 cotejando para cada operación:
 
-  · Valor en aduana declarado vs. importe de los CFDI correspondientes
-  · Incrementables (flete, seguro, embalaje, regalías) vs. CFDI de esos conceptos
-  · Datos del proveedor y relación comercial
-  · Moneda, tipo de cambio e incoterm
-  · Congruencia entre pedimento, COVE y la MVE transmitida
+  · Factura comercial del proveedor vs. datos transmitidos en el COVE
+  · Valor comercial declarado en el pedimento vs. monto del COVE
+  · Incrementables (flete, seguro, embalaje, regalías) vs. INCOTERM pactado,
+    verificando que no se dupliquen en operaciones C/D ni se omitan en E/F
+  · Prorrateo de gastos logísticos entre las secuencias del pedimento
+  · Descripción, cantidades y datos del proveedor
+  · Moneda y tipo de cambio
+  · Congruencia entre COVE, MNVA y lo declarado en el pedimento
 
 
 3. ENTREGABLES
@@ -70,8 +74,10 @@ y cómo son de la empresa.
 5. INFORMACIÓN REQUERIDA
 
   · Pedimentos del periodo (PDF o layout)
-  · CFDI de importación y de servicios asociados (XML)
-  · Acuses de MVE transmitidas, si existen
+  · Facturas comerciales de los proveedores correspondientes
+  · Acuses de valor (COVE) de las operaciones
+  · Acuses de MVE (MNVA), si existen
+  · CFDI de fletes y seguros, cuando el proveedor del servicio sea nacional
   · Contacto operativo para resolver dudas
 
 Se firma convenio de confidencialidad previo a la recepción de cualquier

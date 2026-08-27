@@ -62,15 +62,16 @@ entre factura, pedimento, COVE y DODA"*, desplegado el 1 de enero.
 **Lo correcto:** MVE = **Manifestación de Valor Electrónica**. Es un **documento que el
 importador transmite** por VUCEM firmado con su e.firma, obligatorio desde el **1 de agosto
 de 2026**, con facilidades hasta el **30 de septiembre**. La detección automatizada existe,
-pero es el **cruce algorítmico que hace el SAT entre la MVE y los CFDI** de la empresa.
+pero es el **cruce algorítmico que hace el SAT** contra la contabilidad del importador.
 
 **Por qué importa:**
 - **Cambia quién compra.** La obligación y la e.firma son del **importador**, no del agente.
   Pero el agente responde solidariamente. Eso abre la venta por los dos lados y hace del
   agente el mejor canal.
 - **Cambia el plazo.** No es un dolor de 8 meses ya digerido. Es un vencimiento a 36 días.
-- **Cambia el entregable.** No es "revisar documentos": es **reconciliar MVE contra CFDI
-  contra pedimento**. Un problema de datos.
+- **Cambia el entregable.** No es "revisar documentos": es **reconciliar la factura del
+  proveedor extranjero contra el COVE contra el pedimento**, y verificar que los
+  incrementables correspondan al incoterm. Un problema de datos. Ver `08-LA-OPERACION.md`.
 
 ### 2. Anexo 31 ya no se llama así
 
@@ -92,6 +93,18 @@ De las 18 924 bajas del padrón en 2026, **17 855 fueron por dejar de importar**
 sanción. Presentarlas como castigos es deshonesto y detectable. Los datos que **sí**
 sostienen el argumento: **+22.4 % de aumento en suspensiones** y **9 de cada 10 de las
 65 419 suspensiones desde 2021 ocurrieron en los últimos 18 meses.**
+
+### 4. Hay dos facturas distintas, y este material las confundía
+
+La versión anterior de estos documentos decía «cruzar pedimentos contra CFDI». **Está mal.**
+La factura que ampara la mercancía la emite un **proveedor extranjero** y no es un CFDI;
+la factura del agente aduanal al importador sí lo es, pero es otra cosa: son sus honorarios.
+
+Un experto del gremio lo detectó de inmediato al revisar el pitch. La cadena correcta
+—factura comercial → COVE → MVE → pedimento → DODA— y las tres capas de reconciliación
+están en **`08-LA-OPERACION.md`**, que ahora es la base técnica del producto.
+
+**No se manda un solo correo hasta poder explicar esa cadena de memoria.**
 
 ---
 
@@ -142,14 +155,16 @@ no va a comprarle "consultoría en comercio exterior" a un estudiante de séptim
 
 **Lo que sí va a comprar: el trabajo de datos que él no quiere ni puede hacer.**
 
-Ese señor no va a abrir 300 pedimentos en Excel para cruzarlos contra CFDI. No sabe hacerlo
-y su tiempo vale demasiado. Armani sí sabe, y es lo único que hace falta que sepa.
+Ese señor no va a abrir 300 facturas de proveedores extranjeros en formatos distintos para
+cotejarlas contra sus COVE y sus pedimentos. No sabe hacerlo y su tiempo vale demasiado.
+Armani sí sabe, y es lo único que hace falta que sepa — además de conocer la operación.
 
 ### La frase de posicionamiento
 
 > "No soy consultor de comercio exterior; usted sabe más de aduanas que yo. Yo hago el
-> trabajo de datos: cruzo sus pedimentos contra sus CFDI y le digo exactamente en cuáles
-> hay una inconsistencia que el SAT va a detectar. Usted decide qué hacer con eso."
+> trabajo de datos: cruzo la factura del proveedor contra el COVE y contra lo declarado en
+> el pedimento, y verifico que los incrementables correspondan al incoterm pactado. Le digo
+> exactamente en qué operaciones hay una diferencia. Usted decide qué hacer con eso."
 
 Esto funciona porque:
 - **Es verdad.** No hay farol que sostener.
@@ -172,7 +187,8 @@ Esto funciona porque:
 
 | Fase | Qué | Señal para avanzar | Cuándo |
 |---|---|---|---|
-| **0. Herramienta** | Reconciliador MVE↔CFDI↔pedimento funcionando con datos de prueba | Corre y encuentra errores plantados a propósito | Días 1–2 |
+| **0. Aprender la operación** | Ver un expediente real completo, de factura a DODA | Poder explicar la cadena de memoria | Días 1–4 |
+| **0b. Herramienta** | Validador de incrementables contra incoterm | Corre sobre un expediente real y encuentra errores plantados | Días 5–8 |
 | **1. Validar** | 5–8 conversaciones en CAAAREM | 3 de 5 nombran el mismo dolor con cifra | Días 3–6 |
 | **2. Primer caso** | Un diagnóstico entregado y **cobrado** | El cliente paga | Días 7–10 |
 | **3. Repetir** | 3–5 clientes, mismo servicio | El proceso se estabiliza y el precio sube | Semanas 3–8 |
@@ -190,8 +206,8 @@ conversación, no para ser un producto.
 
 | Riesgo | Probabilidad | Mitigación |
 |---|---|---|
-| **Sexta prórroga del SAT** | Media-alta. Ya hubo cinco. | Es el riesgo grande: destruye la urgencia. Mitigación: **no vender solo "MVE antes del 30 de septiembre"**, vender "sus datos no cuadran y eso ya es un riesgo hoy". La inconsistencia MVE↔CFDI sigue existiendo aunque muevan la fecha. Y el Anexo 24/30 no depende de esa prórroga. |
-| **Acceso a datos del cliente** | Alta | Nadie entrega su contabilidad a un desconocido. Empezar con datos que el agente ya tiene (pedimentos), no con los CFDI. Convenio de confidencialidad de una página desde el primer día. |
+| **Sexta prórroga del SAT** | Media-alta. Ya hubo cinco. | Es el riesgo grande: destruye la urgencia. Mitigación: **no vender solo "MVE antes del 30 de septiembre"**, vender "sus datos no cuadran y eso ya es un riesgo hoy". La inconsistencia entre factura, COVE y pedimento sigue existiendo aunque muevan la fecha. Y el Anexo 24/30 no depende de esa prórroga. |
+| **Acceso a datos del cliente** | Alta | Nadie entrega su contabilidad a un desconocido. Empezar con lo que el agente ya tiene en su expediente (factura comercial, COVE, pedimento), no con la contabilidad del importador. Convenio de confidencialidad de una página desde el primer día. |
 | **Sin RFC / no puede facturar** | Por confirmar | Bloquea cobrar a empresas formales. Resolver **antes** de la primera propuesta. |
 | **Carga académica** | Certeza | El plan está diseñado en bloques de 2–3 h. Si el horario real no da, se recorta el número de contactos, no la calidad del entregable. |
 | **Responsabilidad profesional** | Media | Armani **no** firma la MVE (la firma el importador con su e.firma). Su entregable es un **informe de inconsistencias**, no una declaración. Esa frontera hay que escribirla en la propuesta: él señala, el cliente decide. Nunca asumir responsabilidad solidaria por contrato. |

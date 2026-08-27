@@ -26,8 +26,11 @@ descubriendo nada, está presentando.
 8. ¿Han tenido rechazos o inconsistencias? ¿Cómo se enteraron?
 9. **¿Cuánto les costó el último error? En dinero: la multa, la rectificación, el tiempo
    de la gente, la mercancía detenida.**
-10. ¿Alguien revisa que lo declarado cuadre con los CFDI antes de transmitir, o se
+10. ¿Alguien coteja la factura del proveedor contra el COVE antes de transmitir, o se
     confía en que el sistema lo valide?
+10b. ¿Cómo manejan los incrementables cuando el incoterm es CIF o CFR y el flete ya viene
+    dentro del precio? ¿Y cuando es FOB?
+10c. ¿Cómo va el ida y vuelta del COVE y el MNVA con sus importadores? ¿Se atoran ahí?
 
 > **Las preguntas 5 y 9 son las que importan.** Si de la llamada solo salen esas dos
 > respuestas, la llamada valió. Si la 9 se contesta con un número concreto, hay negocio.

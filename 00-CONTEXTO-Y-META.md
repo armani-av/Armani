@@ -4,7 +4,7 @@
 > retome el proyecto sin volver a preguntar lo básico. Las sesiones **no** comparten
 > memoria: lo que no esté escrito aquí, se pierde.
 
-Última actualización: 25 de agosto de 2026
+Última actualización: 25 de agosto de 2026 (rev. 2 — horario real y corrección del mentor)
 
 ---
 
@@ -20,9 +20,29 @@ Tres formaciones en curso simultáneo:
 | UNAM (FCA) | Negocios Internacionales | En curso |
 | Ibero | Ingeniería en Inteligencia Artificial | En curso |
 
-**Carga académica declarada: 55 horas/semana ocupadas.** Equivalente a un empleo de
-tiempo completo, y un poco más. Cualquier plan que ignore esto no es ejecutable.
-(Horario semanal detallado: **pendiente de entregar**. Ver "Preguntas abiertas".)
+**Carga académica: 55 h/semana de clase, 17 materias, sin empalmes.** Horario recibido y
+verificado (`Horario semanal 2027-1`).
+
+Bloques libres reales:
+
+| Día | Hueco | Nota |
+|---|---|---|
+| Lunes | 11:00–16:00 (5 h) | Horario hábil |
+| Martes | 13:00–16:00 (3 h) | Horario hábil |
+| Miércoles | 11:00–16:00 (5 h) | Horario hábil |
+| Jueves | **cero** | 12 h de clase + traslado crítico 15–16 |
+| Viernes | 13:00–16:00 (3 h) | Horario hábil |
+| Sábado | 17:00–21:00 (4 h) | Tras IUCAAAREM + 1 h 20 de traslado |
+| Domingo | Día Capital | Menos comida y ejercicio |
+
+**16 h/semana caen en horario hábil** — el recurso escaso para vender, porque las agencias
+solo contestan de lunes a viernes en horario de oficina.
+
+Presupuesto propio del proyecto: **~12 h/semana**, de los buckets *IA/Proyectos* (10 h) y
+*Reserva* (20 h) del Plan Ejecutivo Agosto 14-31. **Sin tocar música ni académico.**
+
+Duda pendiente: la guía marca IUCAAAREM como «en línea», pero Armani menciona traslado
+presencial. Si alguna sesión es en línea, libera hasta 2 h 40 el sábado.
 
 ## Meta económica
 
@@ -77,13 +97,33 @@ se apoya en algo que no se copia: su acceso al gremio vía CAAAREM.
 ## Activos disponibles
 
 - Conocimiento técnico (IA, análisis de datos, automatización) ya adquirido.
+- **Un mentor experto del gremio, activo y dispuesto a corregir.** El activo más valioso
+  del proyecto. Ver abajo.
 - Acceso a maestros de renombre en CAAAREM para asesoría y posible aval/referencia.
+- Sábados en IUCAAAREM cursando *Operaciones y Almacenes* y *Merceología y Clasificación
+  Arancelaria de Metales* — justo las materias del hueco técnico.
 - Un proyecto de IA en ejecución en paralelo — **no** es el vehículo comercial de este plan.
+- **Armani AV** (música, 24 h/quincena). Proyecto de identidad, **no recortable**.
+
+## El mentor y la corrección del 25 de agosto
+
+Un experto del gremio revisó el pitch y encontró un error de fondo: el material confundía
+**la factura de honorarios del agente aduanal** (que sí es CFDI) con **la factura comercial
+de la mercancía** (que emite un proveedor extranjero y no es CFDI). Su diagnóstico:
+*«te falta conocer la operación»*.
+
+Y después dio la especificación del producto: *«si tu aplicación puede detectar errores
+justo entre esa factura y el pedimento…»*.
+
+**Consecuencias, ya incorporadas:**
+- `08-LA-OPERACION.md` documenta la cadena correcta y las tres capas de reconciliación.
+- Todo el material comercial fue corregido.
+- La secuencia cambió: **aprender la operación antes de vender**, no en paralelo.
+- Regla dura: **no se manda un correo comercial hasta poder explicar la cadena de memoria.**
 
 ## Preguntas abiertas (bloquean afinar el plan)
 
-1. **Horario semanal detallado.** Armani ofreció mandarlo. Sin él, el calendario de
-   `05-PLAN-14-DIAS.md` usa supuestos declarados que hay que corregir.
+1. ~~Horario semanal.~~ **Recibido y verificado.**
 2. ¿Tiene RFC activo y puede facturar? Determina si puede cobrar a empresas formales
    (casi todas las IMMEX exigen factura) o si necesita un intermediario mientras tanto.
 3. ¿Hay algún maestro de CAAAREM con quien ya tenga confianza suficiente para pedirle
@@ -100,7 +140,9 @@ se apoya en algo que no se copia: su acceso al gremio vía CAAAREM.
 | `02-ESTRATEGIA.md` | La tesis, el wedge, el canal, la ruta a 10k USD/mes. |
 | `03-SERVICIOS-Y-PRECIOS.md` | Paquetes, precios y la aritmética real. |
 | `04-PLANTILLAS-CONTACTO.md` | Copy listo para enviar hoy. |
-| `05-PLAN-14-DIAS.md` | Calendario día por día. |
+| `05-PLAN-EJECUCION.md` | Calendario sobre los bloques reales del horario. |
 | `06-CUESTIONARIO-DIAGNOSTICO.md` | Qué preguntar en la llamada de descubrimiento. |
 | `07-PROPUESTA-PLANTILLA.md` | Plantilla de propuesta comercial. |
+| `08-LA-OPERACION.md` | **Los documentos del despacho y las tres capas de reconciliación.** Base técnica. |
+| `09-RESPUESTA-AL-MENTOR.md` | Cómo contestarle y qué pedirle. |
 | `pipeline.csv` | CRM mínimo. Actualizar a mano. |
