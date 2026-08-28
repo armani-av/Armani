@@ -1,8 +1,8 @@
 # 03 — Calendario de 8 semanas (Heridas Finas)
 
-> Escenario base: **10 h por semana**. Si tu semana real es de 6 h, multiplica todo por 1.6
-> (≈13 semanas). Si es de 14 h, divide entre 1.4 (≈6 semanas). El orden de las fases no
-> cambia nunca — solo el largo.
+> **Calibrado a tu horario real: 8.5 h por semana** — sábado 16:30–20:30 (4 h), domingo
+> 10:00–13:00 (3 h) y el carril ligero de martes y viernes. Ver `08-HORARIO-Y-BLOQUES.md`
+> para el reparto exacto por bloque. El orden de las fases no cambia nunca, solo el largo.
 
 Escribe la fecha de inicio: **______________**
 
